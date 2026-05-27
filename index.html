@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Ticket Booking</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎬 Movie Ticket Booking System</h1>
+
+        <div class="form-box">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <input type="text" id="movie" placeholder="Movie Name">
+
+            <input type="number" id="seats" placeholder="Number of Seats">
+
+            <select id="seatType">
+
+                <option value="VIP">VIP</option>
+
+                <option value="Premium">Premium</option>
+
+                <option value="Normal">Normal</option>
+
+            </select>
+
+            <input type="text" id="coupon" placeholder="Coupon Code">
+
+            <button onclick="bookTicket()">
+                Book Ticket
+            </button>
+
+        </div>
+
+        <div class="output" id="output">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
